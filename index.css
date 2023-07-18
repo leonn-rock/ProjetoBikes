@@ -1,0 +1,279 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+h1 {
+  color: #666666;
+}
+p {
+  color: #999999;
+  /* margin: 5px 30px; */
+}
+.pagina {
+  width: 90%;
+  height: auto;
+  margin: 0px auto;
+}
+
+/* INICIO CABECALHO */
+
+header {
+  height: 500px;
+  width: 100%;
+  background-image: url(bikes/Imagens/ImagensGeral/cabe.png);
+  background-size: cover;
+  background-position: center;
+}
+.logo {
+  background-image: url(bikes/Imagens/logo/logo3.jpg);
+  height: 100px;
+  width: 100px;
+  margin: 0px auto;
+  background-position: center;
+  background-size: 200%;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  line-height: 50px;
+  background-color: #333333;
+}
+.linksNav {
+  font-weight: bold;
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+/* FIM CABECALHO */
+
+/* INICIO NOTICIAS */
+
+#noticias {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.titulos {
+  margin: 0px 20px;
+  width: 25%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.bola {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-size: cover;
+  margin: 30px auto;
+}
+.btVerMais {
+  width: 120px;
+  color: #999999;
+  margin: 10px auto;
+  line-height: 30px;
+  border: #999999 solid 1px;
+  text-decoration: none;
+}
+.dc {
+  background-image: url(bikes/Imagens/ImagensGeral/dica.png);
+}
+.nt {
+  background-image: url(bikes/Imagens/ImagensGeral/noticias.png);
+}
+.eq {
+  background-image: url(bikes/Imagens/ImagensGeral/equipamentos.png);
+}
+
+/* FIM NOTICIAS */
+
+/*INICIO AGENDA*/
+
+#agenda {
+  height: auto;
+  width: 100%;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  line-height: 50px;
+}
+.tituloCategoria {
+  margin-top: 20px;
+}
+.subtitulo {
+  margin: 0px 50px;
+  color: #999999;
+}
+.entradas {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.entradaData {
+  margin: 20px;
+  width: 25%;
+  height: 30px;
+}
+#itensAgenda {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.icone {
+  width: 25%;
+  height: auto;
+  margin: 20px;
+}
+.caixaData {
+  width: 60px;
+  height: 80px;
+  float: left;
+  text-align: center;
+  margin: 0px auto;
+  background-color: #333333;
+}
+.caixaTexto {
+  width: 80%;
+  height: 100%;
+  display: block;
+  float: right;
+}
+.Esq {
+  float: left;
+  margin: 10px 0px;
+}
+.dia25 {
+  margin-top: -25px;
+}
+.tituloEvento {
+  margin: -15px 0px -5px 0px;
+  float: left;
+  color: #666666;
+}
+.escritaBaixa {
+  line-height: 20px;
+  text-align: justify;
+  float: left;
+}
+.czMedio {
+  color: #999999;
+}
+
+/* FIM AGENDA */
+
+/* INICIO GALERIA */
+
+#galeria {
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  line-height: 50px;
+}
+#areaFotos {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+.banner {
+  width: 19%;
+  margin: 0.5%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.banner:hover {
+  transform: scale(120%);
+  transition: all 1s;
+}
+.ft1 {
+  background-image: url(bikes/Imagens/ImagensGeral/foto1.jpg);
+}
+.ft2 {
+  background-image: url(bikes/Imagens/ImagensGeral/foto2.jpg);
+}
+.ft3 {
+  background-image: url(bikes/Imagens/ImagensGeral/foto3.jpg);
+}
+.ft4 {
+  background-image: url(bikes/Imagens/ImagensGeral/foto4.jpg);
+}
+.ft5 {
+  background-image: url(bikes/Imagens/ImagensGeral/foto5.jpg);
+}
+.ft6 {
+  background-image: url(bikes/Imagens/ImagensGeral/foto6.jpg);
+}
+.ft7 {
+  background-image: url(bikes/Imagens/ImagensGeral/foto7.jpg);
+}
+.ft8 {
+  background-image: url(bikes/Imagens/ImagensGeral/foto8.jpg);
+}
+.ft9 {
+  background-image: url(bikes/Imagens/ImagensGeral/foto9.jpg);
+}
+.ft10 {
+  background-image: url(bikes/Imagens/ImagensGeral/foto10.jpg);
+}
+
+/* FIM GALERIA */
+
+/* INICIO NEWSLETTER */
+
+#newsletter {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  line-height: 50px;
+}
+.caixaEntrada {
+  width: 60%;
+  height: 30px;
+  margin: 50px 0px;
+  border: #999999 solid 1px;
+}
+.btCinza {
+  padding: 0px 50px;
+  margin-bottom: 50px;
+  border-radius: 3px;
+  background-color: #333333;
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+/* FIM NEWSLETTER */
+
+/* INICIO RODAPE */
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: #666666;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.escritaRodape {
+  margin-top: 15px;
+}
+.czClaro {
+  color: #d0d0d0;
+}
+
+/* FIM RODAPE */
